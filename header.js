@@ -10,7 +10,7 @@ class Header extends HTMLElement
         <h1>Jennifer Hoitenga's Personal Portfolio</h1>
     </div>
         <nav class="nav-bar">
-            <a href="./about.html">About</a>
+            <a href="./index.html">About</a>
             <a href="./resume.html">Resume</a>
             <a href="./project.html">Projects</a>
             <a href="./database-diagrams.html">Database Diagrams</a>
