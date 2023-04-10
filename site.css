@@ -206,7 +206,28 @@ ol {
 .resume{
     margin-left: 60px;
     margin-right: 60px;
-    width: 200px;
+    width: 280px;
     padding: 10px;
 }
 
+.grid-container1 {
+    display: grid;
+    grid-template-columns: auto ;
+    grid-template-rows: auto;
+    background-color: #386641;
+    padding: 10px;
+}
+
+.grid-item1 {
+    background-color: #f2e8cf;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .card1 {
+    transition: 0.3s;
+    height: 430px;
+    background-color: white;
+    box-shadow: 5px 10px #888888;
+}
