@@ -174,11 +174,11 @@ ol {
 .ong {
     border: 4px solid #386641;
     display: block;
-    margin-top: auto;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: 260px;
-    max-width: 25%;
-    max-height: 25%;
+    max-width: 18%;
+    max-height: 18%;
     padding: 10px;
     float: right;
 }
