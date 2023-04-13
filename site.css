@@ -236,25 +236,22 @@ ol {
     margin: 3%;
 }
 
-  
 .intro {
     display: flex;
     width: 100%;
     padding: 0%;
-    margin-top: -26px;
 }
 
 .left {
-    width: 40%;
+    width: 30%;
 }
   
 .right {
-    width: 60%;
+    width: 45%;
+    margin-left: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
 .img-div {
@@ -262,11 +259,12 @@ ol {
     flex-direction: column;
     padding: 0px 0px 0px 40px;
     width: 100%;
-    height: auto;
+    opacity: 0.8;
 }
 
 .landing {
     background-color: #1D3522;
+    height: 330px;
 }
 
 
