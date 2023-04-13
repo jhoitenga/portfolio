@@ -65,7 +65,7 @@ body {
     text-align: center;   
     font-size: 30px;
     background-color: #386641;
-    color: white;
+    color: #F2E8CF;
     margin: 0px;
     width: 100%;
 }
@@ -225,7 +225,7 @@ ol {
     text-align: center;
   }
 
-  .card1 {
+.card1 {
     transition: 0.3s;
     height: 430px;
     background-color: white;
@@ -235,3 +235,53 @@ ol {
 .assign-content {
     margin: 3%;
 }
+
+  
+.intro {
+    display: flex;
+    width: 100%;
+    padding: 0%;
+    margin-top: -50px;
+}
+
+.left {
+    width: 40%;
+}
+  
+.right {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.img-div {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 40px;
+}
+
+.landing {
+    background-color: #1D3522;
+}
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
