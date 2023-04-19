@@ -233,7 +233,7 @@ ol {
 }
 
 .assign-content {
-    margin: 3%;
+    margin: 1.5%;
 }
 
 .intro {
@@ -265,6 +265,7 @@ ol {
 .landing {
     background-color: #1D3522;
     height: 330px;
+    background-size: contain;
 }
 
 
