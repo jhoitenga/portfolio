@@ -248,11 +248,12 @@ ol {
 }
   
 .right {
-    width: 45%;
-    margin-left: 80px;
+    width: 55%;
+    margin-left: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: #7b949c;
 }
 
 .img-div {
