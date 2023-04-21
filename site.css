@@ -163,13 +163,11 @@ ol {
     list-style: decimal inside;
     text-align: left;
     font-size: 20px;
-    padding-bottom: 25px;
-    display: inline-block;
+    padding-bottom: 20px;
 }
 
 .li {
     font-size: 20px;
-    display: inline-block;
 }
 
 .ong {
@@ -266,16 +264,33 @@ ol {
     flex-direction: column;
 }
 
+.computer {
+    width: 400px;
+}
 
 @media only screen and (min-width: 1400px) {
-    h1, h2, body {
+    .intro {
         font-size: 45px;
+        padding-top: 120px;
     }
 }
   
 @media only screen and (min-width: 1400px) {
-    p {
+    .intro2 {
         font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .intro3 {
+        font-size: 45px;
+        padding-top: 90px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .computer {
+        width: 580px;
     }
 }
 
