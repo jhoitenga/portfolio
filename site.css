@@ -262,6 +262,7 @@ ol {
     float: right;
     display: flex;
     flex-direction: column;
+    color: #c6ebfc;
 }
 
 .computer {
