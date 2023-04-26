@@ -11,11 +11,11 @@ class Header extends HTMLElement
     </div>
         <nav class="nav-bar">
             <a href="./index.html">Home</a>
+            <a href="./about.html">About</a>
             <a href="./resume.html">Resume</a>
             <a href="./project.html">Projects</a>
             <a href="./database-diagrams.html">Database Diagrams</a>
             <a href="./api.html">API Unit Tests</a>
-            <a href="./about.html">About</a>
         </nav>
         `;
     }
