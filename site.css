@@ -19,9 +19,9 @@ body {
 
 .card {
     transition: 0.3s;
-    height: 230px;
     background-color: white;
     box-shadow: 5px 10px #888888;
+    display: inline-block;
 }
 
 .card-title {
@@ -31,6 +31,7 @@ body {
     font-weight: 400;
     background-color: #386641;
     padding: 15px;
+    height: 45px;
 }
 
 .card-content {
