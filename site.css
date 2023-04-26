@@ -93,7 +93,7 @@ p {
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto ;
+    grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto auto;
     background-color: #386641;
     padding: 10px;
@@ -223,7 +223,7 @@ ol {
 
 .grid-container1 {
     display: grid;
-    grid-template-columns: auto ;
+    grid-template-columns: auto;
     grid-template-rows: auto;
     background-color: #386641;
     padding: 10px;
@@ -263,26 +263,29 @@ ol {
     float: right;
     display: flex;
     flex-direction: column;
-    color: #c6ebfc;
+    color: #c6ebfd;
 }
 
 .computer {
     width: 350px;
 }
 
+/* Increase font size on landing page when screen is large */
 @media only screen and (min-width: 1400px) {
     .intro {
         font-size: 45px;
         padding-top: 120px;
     }
 }
-  
+
+/* Increase font size on landing page when screen is large */
 @media only screen and (min-width: 1400px) {
     .intro2 {
         font-size: 30px;
     }
 }
 
+ /* Increase font size on landing page when screen is large */
 @media only screen and (min-width: 1400px) {
     .intro3 {
         font-size: 45px;
@@ -290,9 +293,17 @@ ol {
     }
 }
 
+ /* Increase image on landing page when screen is large */
 @media only screen and (min-width: 1400px) {
-    .computer {
+    {
         width: 580px;
+    }
+}
+
+ /* Hide image on landing page when screen is small */
+@media only screen and (max-width: 1010px) {
+    div.left {
+        display: none;
     }
 }
 
