@@ -270,6 +270,12 @@ ol {
     width: 350px;
 }
 
+.downloadResume (
+    padding-bottom: 40px; 
+    font-size: 50px;
+    color: #386641;
+)
+
 /* Increase font size on landing page when screen is large */
 @media only screen and (min-width: 1400px) {
     .intro {
