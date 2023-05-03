@@ -246,75 +246,56 @@ ol {
 .assign-content {
     margin: 1.5%;
 }
-
-.left {
-    width: 40%;
-    float: left;
-    padding: 0px 0px 0px 50px;
-    display: flex;
-    flex-direction: column;
-    margin-top: -20px;
-}
   
-.right {
-    width: 55%;
-    justify-content: center;
-    padding-top: 120px;
-    float: right;
-    display: flex;
-    flex-direction: column;
-    color: #c6ebfd;
-}
-
-.computer {
-    width: 350px;
-}
-
 .downloadResume (
     padding-bottom: 40px; 
     font-size: 50px;
     color: #386641;
 )
 
-/* Increase font size on landing page when screen is large */
-@media only screen and (min-width: 1400px) {
-    .intro {
-        font-size: 45px;
-        padding-top: 120px;
-    }
+
+
+
+.container {
+    position: relative;
+    padding-bottom: 110px;
 }
 
-/* Increase font size on landing page when screen is large */
-@media only screen and (min-width: 1400px) {
-    .intro2 {
-        font-size: 30px;
-    }
+.title {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 60px;
+    
 }
 
- /* Increase font size on landing page when screen is large */
-@media only screen and (min-width: 1400px) {
-    .intro3 {
-        font-size: 45px;
-        padding-top: 50px;
-    }
+.computer {
+    width: 430px;
+    vertical-align: middle;
+    margin-top: -80px;
 }
 
- /* Increase image on landing page when screen is large */
-@media only screen and (min-width: 1400px) {
-    {
-        width: 580px;
+.content {
+    padding: 10px;
+    color: #c6ebfc;
+    text-align: left;
+    margin-top: -80px;
+}
+  
+@media (max-width: 800px) {
+    .content {
+       flex-direction: column;
     }
 }
 
  /* Hide image on landing page when screen is small */
-@media only screen and (max-width: 1010px) {
-    div.left {
+ @media only screen and (max-width: 1010px) {
+    .computer {
         display: none;
     }
 }
-
-  
-
   
 
   
