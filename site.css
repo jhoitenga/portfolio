@@ -289,19 +289,37 @@ ol {
     }
 }
 
-@media only screen and (min-width: 1201px) {
-    .content {
-        font-size: 50px;
+@media only screen and (min-width: 1200px) {
+    .intro {
+        font-size: 45px;
+    }
+}
+  
+@media only screen and (min-width: 1200px) {
+    .intro2 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .intro3 {
+        font-size: 45px;
     }
 }
 
  /* Hide image on landing page when screen is small */
- @media only screen and (max-width: 1010px) {
+ @media only screen and (max-width: 1000px) {
     .computer {
         display: none;
     }
 }
-  
+
+ /* Adding padding to top when screen is small */
+@media only screen and (max-width: 1000px) {
+    .content{
+        padding-top: 60px;
+    }
+}
 
   
 
