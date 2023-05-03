@@ -178,7 +178,6 @@ ol {
     margin-left: auto;
     margin-right: 260px;
     max-width: 18%;
-    max-height: 18%;
     padding: 10px;
     float: right;
 }
@@ -188,7 +187,6 @@ ol {
     margin-left: 20px;
     margin-right: 20px;
     max-width: 10%;
-    max-height: 10%;
     padding: 10px;
     float: left;
 }
@@ -258,7 +256,6 @@ ol {
 
 .container {
     position: relative;
-    padding-bottom: 110px;
 }
 
 .title {
@@ -272,9 +269,11 @@ ol {
 }
 
 .computer {
-    width: 430px;
     vertical-align: middle;
+    float: left;
     margin-top: -80px;
+    width: 50%;
+    height: auto;
 }
 
 .content {
