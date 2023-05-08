@@ -256,7 +256,6 @@ ol {
 .downloadResume (
     padding-bottom: 40px; 
     font-size: 50px;
-    color: #386641;
 )
 
 
@@ -281,6 +280,7 @@ ol {
     float: left;
     width: 40%;
     height: auto;
+    filter: brightness(75%);
 }
 
 .content {
