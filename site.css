@@ -279,14 +279,13 @@ ol {
 .computer {
     vertical-align: middle;
     float: left;
-    margin-top: -70px;
     width: 40%;
     height: auto;
 }
 
 .content {
     padding: 10px;
-    color: #c6ebfc;
+    color: #b7ada5;
     text-align: left;
     margin-top: -80px;
 }
