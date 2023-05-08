@@ -55,10 +55,10 @@ body {
     background-color: #386641;
     margin: 0;
     border-bottom: 2px solid #6A994E;
+    padding-top: 10px;
   }
   
-  .nav-bar a {
-    float: center;
+.nav-bar a {
     color: #6A994E;
     padding: 14px 16px;
     text-decoration: none;
@@ -252,14 +252,6 @@ ol {
 .assign-content {
     margin: 1.5%;
 }
-  
-.downloadResume (
-    padding-bottom: 40px; 
-    font-size: 50px;
-)
-
-
-
 
 .container {
     position: relative;
@@ -271,7 +263,7 @@ ol {
     align-items: center;
     text-align: center;
     justify-content: center;
-    padding: 60px;
+    padding: 10px;
     
 }
 
@@ -281,16 +273,16 @@ ol {
     width: 40%;
     height: auto;
     filter: brightness(75%);
+    padding-top: 25px;
 }
 
 .content {
-    padding: 10px;
     color: #b7ada5;
     text-align: left;
-    margin-top: -80px;
+    padding-top: 25px;
 }
   
-@media only screen (max-width: 800px) {
+@media only screen and (max-width: 800px) {
     .content {
        flex-direction: column;
     }
