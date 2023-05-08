@@ -31,7 +31,7 @@ body {
     color: white;
     font-weight: 400;
     background-color: #386641;
-    padding: 15px;
+    padding-top: 15px;
     height: 60px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -42,8 +42,8 @@ body {
     padding: 10px;
     text-align: center;
     font-size: 14px;
-    min-height: 160px;
-    min-width: 160px;
+    min-height: 120px;
+    min-width: 120px;
 }
 
 .card:hover {
