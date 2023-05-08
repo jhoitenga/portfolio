@@ -1,5 +1,5 @@
 * {
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
 }
 
@@ -22,6 +22,7 @@ body {
     background-color: white;
     box-shadow: 5px 10px #888888;
     display: inline-block;
+    border-radius: 15px;
 }
 
 .card-title {
@@ -31,12 +32,18 @@ body {
     font-weight: 400;
     background-color: #386641;
     padding: 15px;
-    height: 45px;
+    height: 60px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: solid 3px #6A994E;
 }
 
 .card-content {
-    padding: 2px 16px;
+    padding: 10px;
+    text-align: center;
     font-size: 14px;
+    min-height: 160px;
+    min-width: 160px;
 }
 
 .card:hover {
@@ -51,7 +58,7 @@ body {
   }
   
   .nav-bar a {
-    float: left;
+    float: center;
     color: #6A994E;
     padding: 14px 16px;
     text-decoration: none;
@@ -103,7 +110,7 @@ p {
     background-color: #f2e8cf;
     padding: 20px;
     font-size: 30px;
-    text-align: center;
+    text-align: center; 
   }
 
 a {
@@ -124,7 +131,6 @@ a:visited {
     text-align: center;
     background-color: #386641;
     margin: 0 auto;
-    padding: 10px;
     border-top: 2px solid #6A994E;
     font-size: 10px;
     position: fixed;
@@ -236,7 +242,7 @@ ol {
 
 .card1 {
     transition: 0.3s;
-    height: 815px;
+    height: 900px;
     background-color: white;
     box-shadow: 5px 10px #888888;
 }
@@ -271,7 +277,7 @@ ol {
 .computer {
     vertical-align: middle;
     float: left;
-    margin-top: -80px;
+    margin-top: -70px;
     width: 40%;
     height: auto;
 }
