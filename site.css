@@ -42,8 +42,8 @@ body {
     padding: 10px;
     text-align: center;
     font-size: 14px;
-    min-height: 120px;
-    min-width: 120px;
+    min-height: 100px;
+    min-width: 100px;
 }
 
 .card:hover {
@@ -217,7 +217,7 @@ ol {
 }
 
 .resumeText {
-    font-size: 10px;
+    font-size: 15px;
     text-align: left;
 }
 
