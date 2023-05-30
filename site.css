@@ -67,8 +67,9 @@ body {
 
 .nav-bar a:hover {
     background-color: #6A994E;
-    color: white;
-    border-radius: 15px;
+    color: #F2E8CF;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .top {
@@ -265,7 +266,10 @@ ol {
     text-align: center;
     justify-content: center;
     padding: 10px;
-    
+    background: radial-gradient(circle, #6A994E 10%, transparent 11%),radial-gradient(circle at bottom left, #6A994E 5%, transparent 6%),radial-gradient(circle at bottom right, #6A994E 5%, transparent 6%),radial-gradient(circle at top left, #6A994E 5%, transparent 6%),radial-gradient(circle at top right, #6A994E 5%, transparent 6%);
+    background-size: 2em 2em;
+    background-color: #386641;
+    opacity: 1
 }
 
 .computer {
@@ -273,7 +277,6 @@ ol {
     float: left;
     width: 40%;
     height: auto;
-    filter: brightness(75%);
     padding-top: 25px;
 }
 
