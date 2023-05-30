@@ -284,6 +284,12 @@ ol {
     color: #ebd1c2;
     text-align: left;
     padding-top: 25px;
+    background: rgba( 56, 102, 65, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 106, 153, 78, 0.37  );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
   
 @media only screen and (max-width: 800px) {
